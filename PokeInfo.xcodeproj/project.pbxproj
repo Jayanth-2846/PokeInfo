@@ -11,6 +11,8 @@
 		FDF7A5832A65269900DDA8D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7A5822A65269900DDA8D7 /* ContentView.swift */; };
 		FDF7A5852A65269B00DDA8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF7A5842A65269B00DDA8D7 /* Assets.xcassets */; };
 		FDF7A5882A65269B00DDA8D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF7A5872A65269B00DDA8D7 /* Preview Assets.xcassets */; };
+		FDF7A5902A6528A200DDA8D7 /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = FDF7A58F2A6528A200DDA8D7 /* pokemon.json */; };
+		FDF7A5932A6528D500DDA8D7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7A5922A6528D500DDA8D7 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FDF7A5822A65269900DDA8D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDF7A5842A65269B00DDA8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF7A5872A65269B00DDA8D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDF7A58F2A6528A200DDA8D7 /* pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemon.json; sourceTree = "<group>"; };
+		FDF7A5922A6528D500DDA8D7 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				FDF7A5802A65269900DDA8D7 /* PokeInfoApp.swift */,
 				FDF7A5822A65269900DDA8D7 /* ContentView.swift */,
+				FDF7A5912A6528BC00DDA8D7 /* Helpers */,
+				FDF7A58E2A6527CE00DDA8D7 /* Data */,
 				FDF7A5842A65269B00DDA8D7 /* Assets.xcassets */,
 				FDF7A5862A65269B00DDA8D7 /* Preview Content */,
 			);
@@ -65,6 +71,22 @@
 				FDF7A5872A65269B00DDA8D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDF7A58E2A6527CE00DDA8D7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7A58F2A6528A200DDA8D7 /* pokemon.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FDF7A5912A6528BC00DDA8D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7A5922A6528D500DDA8D7 /* Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF7A5882A65269B00DDA8D7 /* Preview Assets.xcassets in Resources */,
+				FDF7A5902A6528A200DDA8D7 /* pokemon.json in Resources */,
 				FDF7A5852A65269B00DDA8D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF7A5832A65269900DDA8D7 /* ContentView.swift in Sources */,
+				FDF7A5932A6528D500DDA8D7 /* Helpers.swift in Sources */,
 				FDF7A5812A65269900DDA8D7 /* PokeInfoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
