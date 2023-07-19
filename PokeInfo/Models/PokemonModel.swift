@@ -25,4 +25,13 @@ struct DetailPokemon: Codable {
     let id: Int
     let height: Int
     let weight: Int
+//    let stats: [Statistics]
 }
+
+//struct Statistics: Codable {
+//    let base_stat: Int
+//    let stat: [Stat]
+//}
+//struct Stat: Codable {
+//    let name: String
+//}
