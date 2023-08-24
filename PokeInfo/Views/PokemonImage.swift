@@ -13,7 +13,7 @@ struct PokemonImage: View {
     let dimensions: Double = 50
     var body: some View {
         AsyncImage(url: URL(string: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/\(vm.getPokemonId(pokemon: pokemon)).png")) { image in
-            if let image = image {
+            if let image = image as? Image {
                 image
                     .resizable()
                     .scaledToFit()
